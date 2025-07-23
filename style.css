@@ -29,7 +29,7 @@ nav.nav-links {
 
 nav.nav-links a {
     color: white;
-    margin: 100px;
+    margin: 120px;
 }
 
 div.banner-container img {
@@ -77,12 +77,72 @@ div.friend p {
     margin-right: 30px;
 }
 
+div.gallery {
+    text-align: center;
+    color: red;
+    margin: 20px;
+    font-size: 30px;
+}
 
+div.pictures {
+    text-align: center;
+    margin: 50px;
+}
 
+div.pictures img {
+    margin: 10px;
+    border-bottom: red 10px solid;
+}
 
+div.parent-div {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position: relative;
+}
 
+div.child-div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute; 
+    left: 20px;
+    top: 20px;
+}
 
+div.background img {
+    width: 100%;
+}
 
+div.background {
+    position: relative;
+}
+
+div.forms {
+    height: 65%;
+    width: 30%;
+    background-color: lightgrey;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    padding: 40px 10px;
+}
+
+div.forms input {
+    margin: 20px 15px;
+    font-size: 30px;
+}
+div.forms textarea {
+    margin: 20px 15px;
+    font-size: 30px;
+}
+
+input.end {
+    color: white;
+    background-color: red;
+    padding: 10px 10px;
+}
 
 
 
