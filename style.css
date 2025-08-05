@@ -34,12 +34,12 @@ nav.nav-links {
     text-align: center;
 }
 
-nav.nav-links a {
+.nav-links a {
     color: white;
     margin: 120px;
 }
 
-.nav-link:hover {
+.nav-links a:hover {
     color: red;
 }
 
