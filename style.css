@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
-.heading {
-}
-
-.paragraph {
-    
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -53,17 +46,18 @@ nav.nav-links a {
 div.banner-container img {
     width: 100%;
     border-bottom: red 10px solid;
+    position: relative;
 }
 
-/* .mario-intro  {
-    font-family: "Ojuju", sans-serif;
-} */
-
 div.mario-intro h1 {
-    color: red;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 45px;
+    color: white;
+    border: white solid 5px;
+    text-align: justify;
+    padding: 10px 20px;
+    font-size: 60px;
+    position: absolute;
+    bottom: -50px;
+    left: 500px;
 }
 
 div.mario-intro p {
