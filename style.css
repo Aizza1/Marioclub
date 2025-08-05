@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
-.heading {
-}
-
-.paragraph {
-    
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -41,41 +34,59 @@ nav.nav-links {
     text-align: center;
 }
 
-nav.nav-links a {
+.nav-links a {
     color: white;
     margin: 120px;
 }
 
-.nav-link:hover {
+.nav-links a:hover {
     color: red;
 }
 
 div.banner-container img {
     width: 100%;
     border-bottom: red 10px solid;
+    position: relative;
 }
-
-/* .mario-intro  {
-    font-family: "Ojuju", sans-serif;
-} */
 
 div.mario-intro h1 {
-    color: red;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 45px;
+    color: white;
+    border: white solid 5px;
+    text-align: justify;
+    padding: 10px 20px;
+    font-size: 60px;
+    position: absolute;
+    bottom: -50px;
+    left: 500px;
 }
+
+.mario-intro h1:hover {
+    background-color: red;
+}
+
 
 div.mario-intro p {
     text-align: justify;
-    margin: 20px 100px 30px;
+    margin: 20px 100px 20px;
     font-size: 25px;
     line-height: 50px;
 }
 
+.pics{
+    margin: 5px 48px;
+    text-align: center;
+}
+
+.pics img{
+    width: 45%;
+}
+.pics img:hover {
+    box-shadow: 8px 4px 4px grey;
+}
+
 h6 {
     color: white;
-    background-color: grey;
+    background-color: black;
     text-align: center;
     font-size: 20px;
     padding: 15px;
@@ -170,4 +181,3 @@ input.end {
     background-color: red;
     padding: 10px 10px;
 }
-
