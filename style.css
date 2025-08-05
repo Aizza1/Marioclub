@@ -46,6 +46,10 @@ nav.nav-links a {
     margin: 120px;
 }
 
+.nav-link:hover {
+    color: red;
+}
+
 div.banner-container img {
     width: 100%;
     border-bottom: red 10px solid;
@@ -108,8 +112,13 @@ div.pictures {
 }
 
 div.pictures img {
-    margin: 10px;
+    margin: 5px;
     border-bottom: red 10px solid;
+    width: 48%;
+}
+
+.pictures img:hover {
+    box-shadow: 5px 5px 12px black;
 }
 
 div.parent-div {
@@ -162,33 +171,3 @@ input.end {
     padding: 10px 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav.nav-links a.nav-link1:hover {
-    color: red;
-}
-
-nav.nav-links a.nav-link2:hover {
-    color: red;
-}
-
-nav.nav-links a.nav-link3:hover {
-    color: red;
-}
-
-nav.nav-links a.nav-link4:hover {
-    color: red;
-}
