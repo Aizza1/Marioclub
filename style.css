@@ -67,9 +67,21 @@ div.mario-intro h1 {
 
 div.mario-intro p {
     text-align: justify;
-    margin: 20px 100px 30px;
+    margin: 20px 100px 20px;
     font-size: 25px;
     line-height: 50px;
+}
+
+.pics{
+    margin: 5px 48px;
+    text-align: center;
+}
+
+.pics img{
+    width: 45%;
+}
+.pics img:hover {
+    box-shadow: 8px 4px 4px grey;
 }
 
 h6 {
