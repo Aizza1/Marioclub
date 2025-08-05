@@ -60,6 +60,11 @@ div.mario-intro h1 {
     left: 500px;
 }
 
+.mario-intro h1:hover {
+    background-color: red;
+}
+
+
 div.mario-intro p {
     text-align: justify;
     margin: 20px 100px 30px;
